@@ -1,0 +1,203 @@
+{
+    "productos": [
+        {
+            "id": "2",
+            "nombre": "Mouse Inalámbrico",
+            "precio": 85000,
+            "stock": 60
+        },
+        {
+            "id": "3",
+            "nombre": "Teclado Mecánico",
+            "precio": 240000,
+            "stock": 35
+        },
+        {
+            "nombre": "Escritorio",
+            "precio": "350000",
+            "stock": "80",
+            "id": "T50lgUfapa8"
+        }
+    ],
+    "usuarios": [
+        {
+            "id": "1",
+            "nombre": "Carlos Mendoza",
+            "correo": "carlos.mendoza@ejemplo.com",
+            "edad": 29
+        },
+        {
+            "id": "2",
+            "nombre": "Laura Gomez estrada",
+            "correo": "laura.gomez@ejemplo.com",
+            "edad": 34
+        },
+        {
+            "nombre": "Pedrito Cortez",
+            "correo": "pedrito@gmail.com",
+            "Edad": "30",
+            "id": "BohNBPVe1X4"
+        }
+    ],
+    "companias": [
+        {
+            "id": "1",
+            "nombre": "TechNova S.A.",
+            "sector": "Tecnología y Desarrollo Ambiental",
+            "ciudad": "Medellín"
+        },
+        {
+            "id": "2",
+            "nombre": "Logística del Sur",
+            "sector": "Transporte",
+            "ciudad": "Bogotá"
+        },
+        {
+            "id": "3",
+            "nombre": "Andes Agroindustrial",
+            "sector": "Agroindustria",
+            "ciudad": "Cali"
+        }
+    ],
+    "empleados": [
+        {
+            "nombre": "Ramon del 8",
+            "cargo": "Desarrollador Backend",
+            "salario": 6800000,
+            "id": "1"
+        },
+        {
+            "id": "3",
+            "nombre": "Diana Morales",
+            "cargo": "Analista de QA",
+            "salario": 4400000
+        },
+        {
+            "nombre": "Julano de Tales",
+            "cargo": "Desarrollador Frontend",
+            "salario": "7000000",
+            "id": "D0ME-kxhfEM"
+        }
+    ],
+    "clientes": [
+        {
+            "id": "2",
+            "nombre": "María Castro",
+            "telefono": "3109876543",
+            "direccion": "Carrera 98 # 15-52"
+        },
+        {
+            "id": "3",
+            "nombre": "jhon castro",
+            "telefono": "3154567890",
+            "direccion": "Avenida 80 # 35-10"
+        },
+        {
+            "nombre": "Daniela Tamayo",
+            "telefono": 324567832,
+            "direccion": "avenida 36 # 28-09",
+            "id": "nr3JkWz0uRo"
+        }
+    ],
+    "proveedores": [
+        {
+            "id": "1",
+            "nombre": "Distribuidora Global",
+            "contacto": "ventas@distglobal.com",
+            "ciudad": "Bogota"
+        },
+        {
+            "id": "3",
+            "nombre": "TecnoPartes Latinoamerica",
+            "contacto": "compras@tecnopartes.com",
+            "ciudad": "Medellín"
+        },
+        {
+            "nombre": "Monopolio Central",
+            "contacto": "somosMocentral@nuevo.com",
+            "ciudad": "pereira",
+            "id": "Vsctq37hMOw"
+        }
+    ],
+    "libros": [
+        {
+            "id": "1",
+            "titulo": "Cien años de soledad",
+            "autor": "Gabriel García Márquez",
+            "anio": 1967
+        },
+        {
+            "id": "3",
+            "titulo": "La Republica",
+            "autor": "Platon",
+            "anio": 375
+        },
+        {
+            "titulo": "Metamorfosis",
+            "autor": "Franz kafka",
+            "anio": "1912",
+            "id": "jA6BRqbH0og"
+        }
+    ],
+    "cursos": [
+        {
+            "id": "1",
+            "nombre": "Desarrollo Web Full Stack",
+            "duracion": "12 semanas",
+            "nivel": "Intermedio"
+        },
+        {
+            "id": "3",
+            "nombre": "Arquitectura de APIs REST",
+            "duracion": "10 semanas",
+            "nivel": "Avanzado"
+        },
+        {
+            "nombre": "Profundización en java",
+            "duracion": "9 semanas",
+            "nivel": "experto",
+            "id": "s7eiJkZeRn8"
+        }
+    ],
+    "vehiculos": [
+        {
+            "id": "2",
+            "marca": "Mercedez-benz",
+            "modelo": "Benz Patent-Motorwagen",
+            "placa": "f1rstm33333"
+        },
+        {
+            "id": "3",
+            "marca": "Renault",
+            "modelo": "Duster 2022",
+            "placa": "JKL456"
+        },
+        {
+            "marca": "Lamborghini",
+            "modelo": "F40",
+            "placa": "th30n3",
+            "id": "HFXxmmEywEM"
+        }
+    ],
+    "pedidos": [
+        {
+            "id": "2",
+            "descripcion": "Suscripción Profundización en java",
+            "total": 1550000,
+            "estado": "Pagó"
+        },
+        {
+            "id": "3",
+            "descripcion": "Compra de 1 Teclado Mecánico y 1 Mouse Inalámbrico",
+            "total": 325000,
+            "estado": "Entregado"
+        },
+        {
+            "descripción": "compra escritorio",
+            "total": "350000",
+            "estado": "Entregado",
+            "id": "N9ZwVVYg1HQ"
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}

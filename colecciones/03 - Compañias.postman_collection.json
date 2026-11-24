@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "dfc94b8d-bebf-4b32-b4db-4b9eddf7eb32",
+		"name": "03 - Compañias",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "60343212",
+		"_collection_link": "https://davidriwi3-3021227.postman.co/workspace/david's-Workspace~c5dbfe32-ab9b-4f36-85ea-6aa43a076377/collection/60343212-dfc94b8d-bebf-4b32-b4db-4b9eddf7eb32?action=share&source=collection_link&creator=60343212"
+	},
+	"item": [
+		{
+			"name": "Listar Productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/compañias",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"compañias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar por ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Crear",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Reemplazar",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Parcialmente",
+			"request": {
+				"method": "PATCH",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

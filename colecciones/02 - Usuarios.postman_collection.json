@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "197a1ed4-7c64-4e0e-a9c8-c074a7b84b0c",
+		"name": "02 - Usuarios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "60343212",
+		"_collection_link": "https://davidriwi3-3021227.postman.co/workspace/david's-Workspace~c5dbfe32-ab9b-4f36-85ea-6aa43a076377/collection/60343212-197a1ed4-7c64-4e0e-a9c8-c074a7b84b0c?action=share&source=collection_link&creator=60343212"
+	},
+	"item": [
+		{
+			"name": "Listar Todos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar por ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Crear",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Reemplazar",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Parcialmente",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/productos/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"productos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/ususarios/3",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ususarios",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
